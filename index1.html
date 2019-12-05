@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.myname {
+  background-color: rgb(19, 21, 128);
+  color:red ;
+  font-size: 30px;
+}
+.mystyle{
+ background-color:red;
+ color:rgb(19, 21, 128);
+ font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to add the "mystyle" class to DIV.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> The classList property is not supported in Internet Explorer 9 and earlier versions.</p>
+
+<div id="myDIV" class="mystyle" >
+I am a DIV element
+</div>
+
+<script>
+function myFunction() {
+  var element = document.getElementById("myDIV");
+  if(element.classList.contains('mystyle')){
+    element.classList.remove('mystyle')
+    element.classList.add('myname')
+  }else{
+    element.classList.remove('myname')
+    element.classList.add('mystyle')
+  }
+}
+</script>
+
+</body>
