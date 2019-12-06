@@ -26,7 +26,7 @@ function addToDo(toDo, id, done, trash) {
 
 let LIST = [];
 let id = 0;
-addBtn.addEventListener('click',function (){
+addBtn.addEventListener('click', function () {
   const toDo = input.value;
   if (toDo) {
     addToDo(toDo, id, false, false);

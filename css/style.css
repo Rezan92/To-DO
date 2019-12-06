@@ -58,30 +58,33 @@ h1{
   width:380px;
   height: 350px;
   max-height:350px;
-  background-color: #FFF;
+  background-color: #775681;
   overflow: auto;
 }
 .content::-webkit-scrollbar { 
   display: none; 
 }
 .content ul{
+  
   padding:0;
   margin:0;
 }
 #item{
   width:93%;
   height:40px;
-  margin-top:4px;
+  margin:2px;
+  background-color: #a5a1a7;
 }
 .item{
   width:380px;
   height: 45px;
   min-height: 45px;
   position: relative;
+  background-color: #7a3091;
   border-bottom: 1px solid rgba(0,0,0,0.1);
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 2px;
 }
 .item i.co{
   position: absolute;
@@ -103,7 +106,7 @@ h1{
   font-size: 20px;
   left:25px;
   top:5px;
-  background-color: #FFF;
+  background-color: #760399;
   max-width:285px;
 }
 .lineThrough{
@@ -115,6 +118,10 @@ h1{
   font-size: 25px;
   right:15px;
   top:10px;
+}
+.add-item{
+  background-color: #775681;
+  margin-top:3px;
 }
 .item i.de:hover{
   color:#af0000;
